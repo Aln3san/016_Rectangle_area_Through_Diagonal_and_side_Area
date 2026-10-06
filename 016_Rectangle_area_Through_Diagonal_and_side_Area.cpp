@@ -1,20 +1,16 @@
-// 016_Rectangle_area_Through_Diagonal_and_side_Area.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+// 016_Rectangle_area_Through_Diagonal_and_side_Area
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    unsigned int side, diagonal;
+	std::cout << "Please enter the side length of the rectangle ?" << std::endl;
+	std::cin >> side;
+	std::cout << "Please enter the diagonal length of the rectangle ?" << std::endl;
+	std::cin >> diagonal;
+
+	float Area = side * sqrt( pow(diagonal, 2) - pow(side, 2) );
+	std::cout << "The area of the rectangle is: " << Area << std::endl;
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
