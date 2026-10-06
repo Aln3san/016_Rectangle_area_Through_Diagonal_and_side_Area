@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="016_Rectangle_area_Through_Diagonal_and_side_Area.vcxproj" />
+</Solution>
